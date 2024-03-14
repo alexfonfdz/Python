@@ -1,0 +1,7 @@
+Al estar en esta carpeta (web_control), usar los siguientes comandos:
+.venv\Scripts\activate - Para entrar al entorno virtual del programa
+.venv\Scripts\deactivate - Para salir del entorno virtual
+
+Una vez en el entrono virtual, usar:
+flask --app nombre_archivo_principal run - Para correr el sistema
+flask --app nombre_archivo_principal run --debug - Para correr el sistema sin estar parando la app cada cambio que se haga
