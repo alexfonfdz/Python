@@ -17,7 +17,7 @@
         border-radius: 50%;
         margin: 10px;
       }
-      #centrar {
+      .centrar {
         display: flex;
         justify-content: center;
       }
@@ -32,7 +32,7 @@
     </style>
   </head>
   <body id="body">
-    <div id="centrar" class="posicion">
+    <div class="centrar">
       <button onclick="disabledButtons(this.id)" id="boton1">
         <img
           src="{{url_for('static', filename = 'img/flecha-izquierda.png')}}"
@@ -53,7 +53,7 @@
       </button>
       <br />
       </div>
-      <div id="centrar" class="posicion">
+      <div class="centrar">
       <img src="" alt="motor" id="motor" />
     </div>
     <h3 id="fecha"></h3>
